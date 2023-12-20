@@ -1,3 +1,14 @@
+:root {
+  --light-shade-color4: #F2F2F2;
+  --light-shade-color3: #5A5A5A;
+  --light-shade-color2: #535353;
+  --light-shade-color1:#4D4D4D;
+  --main-color: #464646;
+  --dark-shade-color1:#404040;
+  --dark-shade-color2:#2D2D2D;
+  --dark-shade-color3:#202020;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +16,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--light-shade-color4);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul {
+  list-style: none;
 }
