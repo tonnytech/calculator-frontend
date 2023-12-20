@@ -1,18 +1,27 @@
 :root {
-  --light-shade-color4: #F2F2F2;
-  --light-shade-color3: #5A5A5A;
+  --light-shade-color4: #f2f2f2;
+  --light-shade-color3: #5a5a5a;
   --light-shade-color2: #535353;
-  --light-shade-color1:#4D4D4D;
+  --light-shade-color1: #4d4d4d;
   --main-color: #464646;
-  --dark-shade-color1:#404040;
-  --dark-shade-color2:#2D2D2D;
-  --dark-shade-color3:#202020;
+  --dark-shade-color1: #404040;
+  --dark-shade-color2: #2d2d2d;
+  --dark-shade-color3: #202020;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -20,7 +29,12 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
     monospace;
 }
 

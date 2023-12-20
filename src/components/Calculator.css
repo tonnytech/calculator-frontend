@@ -1,140 +1,136 @@
-.calculatorContainer{
-    margin-top: 3rem;
-    display: flex;
-    justify-content: center;
+.calculatorContainer {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
 .calcInputsAndButtons {
-    border: 2px solid black;
-    max-width: 20rem;
-    padding: 1rem 2rem 1rem 2rem;
-    margin-bottom: 1rem;
-    background-color: var(--light-shade-color3);
+  border: 2px solid black;
+  max-width: 20rem;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-bottom: 1rem;
+  background-color: var(--light-shade-color3);
 }
 
 .calcInputs {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-bottom: 1rem;
-    background-color: var(--main-color);
-    padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--main-color);
+  padding: 0.5rem;
 }
 
 .calcInputs div {
-    color: #ccc;
+  color: #ccc;
 }
 
 .calcButtons {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--main-color);
-    padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--main-color);
+  padding: 0.5rem;
 }
 
 .calcButtons button {
-    width: 3rem;
+  width: 3rem;
 }
 
 .calcInputs input {
-    width: 3rem;
+  width: 3rem;
 }
 
 .prevListContainer {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    background-color: var(--main-color);
-    min-width: 10rem;
-    color: var(--light-shade-color4);
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: var(--main-color);
+  min-width: 10rem;
+  color: var(--light-shade-color4);
 }
 
 .prevListContainer li {
-    max-width: 5rem;
-    overflow-x: scroll;
-    display: flex;
+  max-width: 5rem;
+  overflow-x: scroll;
+  display: flex;
 }
 
-
-
 .prevListMainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  max-width: 24rem;
+  padding: 1rem;
+  background-color: var(--light-shade-color3);
+}
+
+.prevListButton {
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width: 481px) {
+  .calcInputsAndButtons {
+    max-width: 50rem;
+  }
+
+  .calcInputs {
+    display: flex;
+    justify-content: space-between;
+    gap: 4.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
+
+  .calcButtons button {
+    width: 5.5rem;
+  }
+
+  .prevListMainContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-    max-width: 24rem;
-    padding: 1rem;
-    background-color: var(--light-shade-color3);
+    max-width: 48rem;
+  }
+
+  .prevListContainer {
+    width: 95%;
+  }
+
+  .prevListContainer li {
+    max-width: 100%;
+    overflow-x: unset;
+  }
 }
 
-.prevListButton {
-    text-align: center;
+@media (min-width: 1024px) {
+  .calculatorSubcontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 2rem;
+  }
+
+  .calcButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .calcButtons button {
     width: 100%;
+    height: 2rem;
+  }
+
+  .prevListMainContainer button {
+    font-size: 1.5rem;
+  }
+
+  .calcButtons button {
+    font-size: 1.5rem;
+  }
 }
-
-@media (min-width: 481px) {
-
-    .calcInputsAndButtons{
-        max-width: 50rem;  
-    }
-
-    .calcInputs {
-        display: flex;
-        justify-content: space-between;
-        gap: 4.5rem;
-        margin-bottom: 1rem;
-        padding: 0.5rem;
-    }
-
-    .calcButtons button {
-        width: 5.5rem;
-    }
-
-    .prevListMainContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 2px solid black;
-        max-width: 48rem;
-    }
-
-    .prevListContainer {
-        width: 95%;
-    }
-
-    .prevListContainer li {
-        max-width: 100%;
-        overflow-x: unset;
-    }
-
-  }
-
-  @media (min-width: 1024px) {
-    .calculatorSubcontainer {
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        font-size: 2rem;
-    }
-
-    .calcButtons {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .calcButtons button {
-        width: 100%;
-        height: 2rem;
-    }
-
-    .prevListMainContainer button {
-        font-size: 1.5rem;
-    }
-    .calcButtons button {
-        font-size: 1.5rem;
-    }
-  }
-
